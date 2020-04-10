@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+}
+
+header, nav, section, aside, footer {
+   background: #ebebeb;
+   text-align: center;
+   display: block;
+   padding: 14px;
+   margin: 12px;
+
+}
+section {
+    float: left;
+    width: 495px;
+    height: 230px;
+    overflow: hidden;
+}
+aside {
+    float: right;
+    width: 37%;
+    height: 230px;
+    overflow: hidden;
+}
+article {
+    color: #ebebeb;
+    background: #777;
+    padding: 14px
+}
+
+h1,p {
+    color: #777;
+    background: #ebebeb;
+    text-align: center;
+    padding: 14px
+}
+.break {
+    clear: both;
+}
